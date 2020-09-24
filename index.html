@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
 <body>
  <h1 id="title">Microverse Survey form</h1>
   <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
   <form id="survey-form">
-      <div class="form-contol">
-          <label for="name" id="name-label">Name</label>
-          <input type="text" id="name" placeholder="Enter your name">
-      </div>
+    
+    <div class="form-control">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required/>
+    </div>
 
       <div class="form-control">
           <label for="email" id="email-label">Email</label>
-          <input type="text" id="email" placeholder="Enter your email">
+          <input type="text" id="email" placeholder="Enter your email" required/>
       </div>
 
        <div class="form-control">
